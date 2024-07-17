@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  color: #000000;
+  background: theme('colors.background');
+}
+
+/* Ant Design Customization */
+.ant-tabs .ant-tabs-ink-bar {
+   background: black !important; 
+   font-weight: 500;
+}
+
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: theme('colors.button') !important;
+}
+.ant-tabs-tab-btn {
+    color: theme('colors.graytext') !important;
+ }
+
+.ant-tabs-tab:hover > .ant-tabs-tab-btn {
+    color: theme('colors.button') !important;
+ }
+
+.ant-collapse-expand-icon {
+    height: 100% !important;
+}
